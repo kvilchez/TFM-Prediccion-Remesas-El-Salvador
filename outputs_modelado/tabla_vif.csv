@@ -1,0 +1,15 @@
+Variable,VIF,Nivel
+PIB_US,1305.9079043730196,Severo
+Salario_Promedio_US,1303.2830705736878,Severo
+Inflacion_CPI_US,530.9100887766779,Severo
+PIB_ES,240.8331501616881,Severo
+Desempleo_General_US,43.04682363525406,Severo
+Desempleo_Hispano_US,32.89460113520365,Severo
+Remesas_Lag1,28.51251005175722,Severo
+Remesas_Lag2,27.955328075394053,Severo
+Remesas_Lag3,26.67723023909853,Severo
+Remesas_Lag12,26.437989590386454,Severo
+Deportaciones_Total,11.735482948543991,Severo
+Inflacion_ES,4.503383826685852,Aceptable
+Dummy_Crisis,1.8793882485456732,Aceptable
+Dummy_Covid,,No calculable

@@ -1,0 +1,81 @@
+
+CONCLUSIONES SOBRE LA EFECTIVIDAD DE LOS MODELOS
+=================================================
+
+1. MEJOR DESEMPEÑO: REGRESIÓN LINEAL
+
+   La Regresión Lineal presentó el mejor desempeño predictivo
+   durante el período de prueba 2020-2025, con un MAPE de
+   8.89% y un R² de 0.6192.
+
+   El MAPE indica que, en promedio, el error absoluto de las
+   predicciones representó aproximadamente el 8.89%
+   del valor real mensual de las remesas. Además, fue el único
+   modelo evaluado que obtuvo un R² positivo.
+
+
+2. DESEMPEÑO DURANTE EL PERÍODO 2020-2025
+
+   El período de prueba presentó niveles de remesas superiores
+   a los observados durante buena parte del conjunto de
+   entrenamiento, lo que representó un desafío para la
+   capacidad de generalización de los modelos.
+
+   Las figuras de predicción muestran diferencias importantes
+   en la capacidad de cada enfoque para seguir la trayectoria
+   observada durante 2020-2025, especialmente ante el aumento
+   sostenido de los valores mensuales.
+
+
+3. COMPARACIÓN DE LOS MODELOS
+
+   Los errores porcentuales obtenidos fueron:
+
+   - Regresión Lineal : 8.89%
+   - Random Forest    : 29.57%
+   - XGBoost          : 28.26%
+   - LSTM             : 26.18%
+
+   Random Forest y XGBoost presentaron mayores dificultades
+   para reproducir los niveles observados en el período de
+   prueba. La LSTM también mostró un error superior al de la
+   Regresión Lineal, aunque su desempeño fue mejor que el de
+   los dos modelos basados en árboles.
+
+   En este experimento, una mayor complejidad algorítmica no
+   se tradujo automáticamente en una mayor precisión predictiva.
+
+
+4. HALLAZGOS SOBRE LOS PREDICTORES
+
+   El análisis exploratorio evidenció asociaciones elevadas
+   entre las remesas y variables macroeconómicas de Estados
+   Unidos, mientras que el análisis temporal mostró una fuerte
+   dependencia de la serie respecto a sus valores históricos.
+
+   En los modelos basados en árboles, las importancias de
+   variables deben interpretarse de acuerdo con los predictores
+   incluidos en cada modelo. Random Forest mostró una fuerte
+   relevancia de los rezagos de la propia serie, mientras que
+   XGBoost destacó tanto variables temporales como variables
+   macroeconómicas.
+
+   Estos resultados describen asociaciones y contribuciones
+   predictivas dentro de los modelos evaluados, y no implican
+   relaciones causales.
+
+
+5. IMPLICACIÓN PARA EL PROTOTIPO
+
+   A partir de los resultados obtenidos, la Regresión Lineal
+   constituye el modelo de referencia con mejor desempeño para
+   el prototipo desarrollado.
+
+   Su menor error y su R² positivo muestran una mejor capacidad
+   predictiva relativa frente a Random Forest, XGBoost y LSTM
+   bajo la partición temporal y las condiciones evaluadas.
+
+   Como trabajo futuro, el prototipo podría actualizarse
+   periódicamente con nuevas observaciones para evaluar si el
+   desempeño de los modelos cambia a medida que se incorpora
+   información más reciente.

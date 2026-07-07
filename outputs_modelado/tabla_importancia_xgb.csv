@@ -1,0 +1,15 @@
+Variable,Importancia,Importancia_%
+Remesas_Lag12,0.42138904,42.14
+Inflacion_CPI_US,0.38349676,38.35
+Salario_Promedio_US,0.15310128,15.31
+PIB_US,0.012163427,1.22
+Remesas_Lag1,0.00787163,0.79
+Dummy_Crisis,0.0070161014,0.7
+Desempleo_General_US,0.0027021158,0.27
+Deportaciones_Total,0.0024531907,0.25
+Remesas_Lag3,0.0022445116,0.22
+Desempleo_Hispano_US,0.0021121453,0.21
+Remesas_Lag2,0.0020619559,0.21
+Inflacion_ES,0.0017522161,0.18
+PIB_ES,0.0016356563,0.16
+Dummy_Covid,0.0,0.0

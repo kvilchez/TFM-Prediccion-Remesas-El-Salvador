@@ -1,0 +1,10 @@
+Variable,Estadístico ADF,p-valor,Estacionaria
+Remesas_Millones_USD,2.678,0.9991,No
+Desempleo_Hispano_US,-3.0864,0.0276,Sí
+Desempleo_General_US,-3.0189,0.0332,Sí
+Salario_Promedio_US,1.5952,0.9978,No
+Inflacion_CPI_US,1.5245,0.9976,No
+PIB_US,2.6424,0.9991,No
+Inflacion_ES,-2.0914,0.248,No
+PIB_ES,1.2324,0.9962,No
+Deportaciones_Total,-1.5809,0.4932,No
