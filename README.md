@@ -141,12 +141,17 @@ TFM-Prediccion-Remesas-El-Salvador/
 │   ├── figuras del análisis exploratorio
 │   └── tablas estadísticas exportadas
 │
-└── outputs_modelado/
-    ├── figuras de predicción
-    ├── importancias de variables
-    ├── tabla comparativa de modelos
-    ├── resultados del prototipo
-    └── conclusiones exportadas
+├── outputs_modelado/
+│   ├── figuras de predicción
+│   ├── importancias de variables
+│   ├── tabla comparativa de modelos
+│   ├── resultados del prototipo
+│   └── conclusiones exportadas
+│
+├── Informe_Ejecutivo.html
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
@@ -206,7 +211,25 @@ Integra y presenta:
 - figuras de predicción;
 - importancia de variables;
 - comparación final de modelos;
-- conclusiones sobre efectividad.
+- conclusiones sobre efectividad;
+- generación automática del archivo `Informe_Ejecutivo.html`.
+
+---
+
+## Informe Ejecutivo
+
+La ejecución del Notebook 4 genera automáticamente el archivo `Informe_Ejecutivo.html`, el cual integra los principales resultados del estudio en un dashboard interactivo.
+
+El informe presenta:
+
+- resumen del proyecto;
+- métricas oficiales de evaluación;
+- comparación entre modelos;
+- visualizaciones interactivas;
+- figuras complementarias;
+- conclusiones finales.
+
+Este archivo constituye el producto final de integración del flujo analítico y puede visualizarse directamente desde un navegador web moderno.
 
 ---
 
@@ -243,6 +266,7 @@ Las relaciones observadas entre variables se interpretan con cautela:
 - NumPy
 - Matplotlib
 - Seaborn
+- Plotly
 - scikit-learn
 - statsmodels
 - XGBoost
